@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 2rem;
+}
+
+header {
+  background: #FAFAFA;
+  color: #1F1F1F;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10rem;
+  border-radius: 2rem;
+  padding: 0.8rem;
+}
+
+.lista {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #FEFEFF;
+  padding: 0.4rem;
+  border-radius: 3rem;
+}
+.lista ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.lista li {
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+.lista li:hover {
+  transform: scale(1.2);
+}
+.lista img {
+  cursor: pointer;
+  max-width: 2rem;
+  transition: transform 0.4s;
+}
+.lista img:hover {
+  transform: scale(1.2);
+}
+
+header button {
+  background: #FEFEFF;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  border-color: #C1DEE8;
+  cursor: pointer;
+  border-style: groove;
+  transition: transform 1s;
+}
+
+header button:hover {
+  transform: scale(1.1);
+  background: #C1DEE8;
+}
+
+.parte-1 {
+  margin-top: 2rem;
+  background-image: linear-gradient(to right, #C1DEE8, #FBD9B9 70%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.texto-parte-1 {
+  margin-top: -10rem;
+  margin-left: 2rem;
+}
+.texto-parte-1 p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.texto-parte-1 h1 {
+  font-size: 4.1rem;
+  line-height: 5rem;
+  margin-bottom: 1.5rem;
+}
+.texto-parte-1 input {
+  padding: 0.8rem 5rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.texto-parte-1 button {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  background: #1F1F1F;
+  color: #FEFEFF;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  transition: transform 0.5s;
+}
+.texto-parte-1 button:hover {
+  transform: scale(1.1);
+}
+
+.sub-texto-parte-1 {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 5rem;
+}
+.sub-texto-parte-1 h2 {
+  font-size: 3.1rem;
+}
+
+.icones {
+  margin: 0rem 3rem 0rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.icones h3 {
+  font-size: 1.7rem;
+  margin: 0.5rem 0 1rem 0rem;
+}
+
+.icones span {
+  transition: transform 0.5s;
+}
+
+.icones span:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  border-style: inherit;
+  padding: 5px;
+  border-radius: 1rem;
+  background: #FAFAFA;
+}
+
+.main-2 {
+  margin-top: 8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.parte-2-texto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.parte-2-texto h2 {
+  font-size: 3.1rem;
+}
+.parte-2-texto .icones-main-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.parte-2-texto .icones-main-2 img {
+  transition: transform 0.3s;
+  width: 2rem;
+}
+.parte-2-texto .icones-main-2 img:hover {
+  transform: scale(1.2);
+}
+.parte-2-texto .icone-esquerda {
+  background: #1F1F1F;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.casas-fotos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.casas-fotos .casa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: #FAFAFA;
+  gap: 12px;
+}
+.casas-fotos .casa span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.casas-fotos .casa .foto-casa {
+  background-image: linear-gradient(to bottom right, #C1DEE8, #FBD9B9);
+  border-radius: 1rem;
+  padding: 10px;
+}
+.casas-fotos .casa .estrelas {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.main-3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 8rem;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.1rem;
+}
+
+.main-separa {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.main-separa .main-3-texto {
+  max-width: 35rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6rem;
+  margin-top: -5rem;
+}
+.main-separa h3 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.main-separa button {
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #1F1F1F;
+  padding: 1rem 1.5rem;
+  border-style: double;
+  border-radius: 3rem;
+  border-color: #BEBEBE;
+  background: #FAFAFA;
+  cursor: pointer;
+}
+.main-separa button:hover {
+  background: #000000;
+  color: #FEFEFF;
+}
+.main-separa .numeros {
+  font-size: 4.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-separa .numeros span {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.5rem;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.main-separa .numeros span:hover {
+  transform: scale(1.1);
+}
+.main-separa .numeros p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: -1rem;
+  align-self: flex-start;
+}
+.main-separa img {
+  max-width: 33rem;
+  border-radius: 1rem;
+  z-index: -1;
+  margin-right: 3rem;
+  filter: opacity(90%);
+}
+
+.main-4 {
+  margin-top: 10rem;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.main-4 .parte-4 {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #C1DEE8, #FBD9B9 70%);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+}
+.main-4 .parte-4-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-4 .parte-4-texto h2 {
+  margin-top: -14rem;
+}
+.main-4 .parte-4-texto p {
+  margin: 1rem 0rem 3rem 0rem;
+}
+.main-4 .parte-4-texto input {
+  padding: 0.8rem 5rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.main-4 .parte-4-texto button {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  background: #1F1F1F;
+  color: #FEFEFF;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  transition: transform 0.5s;
+}
+.main-4 .parte-4-texto button:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=styles.css.map */
